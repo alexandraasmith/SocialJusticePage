@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDE5919E2A3A1956006E2CA7 /* Happyv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5919D2A3A1956006E2CA7 /* Happyv2.swift */; };
+		BDE591A02A3A1A3A006E2CA7 /* Disgusted.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5919F2A3A1A3A006E2CA7 /* Disgusted.swift */; };
+		BDE591A22A3A1AA9006E2CA7 /* Angry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE591A12A3A1AA9006E2CA7 /* Angry.swift */; };
+		BDE591A42A3A1B1E006E2CA7 /* Fearful.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE591A32A3A1B1E006E2CA7 /* Fearful.swift */; };
+		BDE591A62A3A1BA7006E2CA7 /* Bad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE591A52A3A1BA7006E2CA7 /* Bad.swift */; };
+		BDE591A82A3A1BF1006E2CA7 /* Surprised.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE591A72A3A1BF1006E2CA7 /* Surprised.swift */; };
+		BDEAAF052A3A04BD00419FA6 /* SocialJusticePageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAAF042A3A04BD00419FA6 /* SocialJusticePageApp.swift */; };
+		BDEAAF072A3A04BD00419FA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAAF062A3A04BD00419FA6 /* ContentView.swift */; };
+		BDEAAF092A3A04BE00419FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEAAF082A3A04BE00419FA6 /* Assets.xcassets */; };
+		BDEAAF0C2A3A04BE00419FA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEAAF0B2A3A04BE00419FA6 /* Preview Assets.xcassets */; };
+		BDEAAF152A3A151400419FA6 /* Sad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAAF142A3A151300419FA6 /* Sad.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDE5919D2A3A1956006E2CA7 /* Happyv2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happyv2.swift; sourceTree = "<group>"; };
+		BDE5919F2A3A1A3A006E2CA7 /* Disgusted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disgusted.swift; sourceTree = "<group>"; };
+		BDE591A12A3A1AA9006E2CA7 /* Angry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angry.swift; sourceTree = "<group>"; };
+		BDE591A32A3A1B1E006E2CA7 /* Fearful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fearful.swift; sourceTree = "<group>"; };
+		BDE591A52A3A1BA7006E2CA7 /* Bad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bad.swift; sourceTree = "<group>"; };
+		BDE591A72A3A1BF1006E2CA7 /* Surprised.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surprised.swift; sourceTree = "<group>"; };
+		BDEAAF012A3A04BD00419FA6 /* SocialJusticePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialJusticePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEAAF042A3A04BD00419FA6 /* SocialJusticePageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialJusticePageApp.swift; sourceTree = "<group>"; };
+		BDEAAF062A3A04BD00419FA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDEAAF082A3A04BE00419FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDEAAF0B2A3A04BE00419FA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDEAAF142A3A151300419FA6 /* Sad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sad.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDEAAEFE2A3A04BD00419FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDEAAEF82A3A04BD00419FA6 = {
+			isa = PBXGroup;
+			children = (
+				BDEAAF032A3A04BD00419FA6 /* SocialJusticePage */,
+				BDEAAF022A3A04BD00419FA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDEAAF022A3A04BD00419FA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAAF012A3A04BD00419FA6 /* SocialJusticePage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEAAF032A3A04BD00419FA6 /* SocialJusticePage */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAAF042A3A04BD00419FA6 /* SocialJusticePageApp.swift */,
+				BDEAAF062A3A04BD00419FA6 /* ContentView.swift */,
+				BDE5919D2A3A1956006E2CA7 /* Happyv2.swift */,
+				BDEAAF142A3A151300419FA6 /* Sad.swift */,
+				BDE5919F2A3A1A3A006E2CA7 /* Disgusted.swift */,
+				BDE591A12A3A1AA9006E2CA7 /* Angry.swift */,
+				BDE591A32A3A1B1E006E2CA7 /* Fearful.swift */,
+				BDE591A52A3A1BA7006E2CA7 /* Bad.swift */,
+				BDE591A72A3A1BF1006E2CA7 /* Surprised.swift */,
+				BDEAAF082A3A04BE00419FA6 /* Assets.xcassets */,
+				BDEAAF0A2A3A04BE00419FA6 /* Preview Content */,
+			);
+			path = SocialJusticePage;
+			sourceTree = "<group>";
+		};
+		BDEAAF0A2A3A04BE00419FA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAAF0B2A3A04BE00419FA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEAAF002A3A04BD00419FA6 /* SocialJusticePage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEAAF0F2A3A04BE00419FA6 /* Build configuration list for PBXNativeTarget "SocialJusticePage" */;
+			buildPhases = (
+				BDEAAEFD2A3A04BD00419FA6 /* Sources */,
+				BDEAAEFE2A3A04BD00419FA6 /* Frameworks */,
+				BDEAAEFF2A3A04BD00419FA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialJusticePage;
+			productName = SocialJusticePage;
+			productReference = BDEAAF012A3A04BD00419FA6 /* SocialJusticePage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDEAAEF92A3A04BD00419FA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BDEAAF002A3A04BD00419FA6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BDEAAEFC2A3A04BD00419FA6 /* Build configuration list for PBXProject "SocialJusticePage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDEAAEF82A3A04BD00419FA6;
+			productRefGroup = BDEAAF022A3A04BD00419FA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEAAF002A3A04BD00419FA6 /* SocialJusticePage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDEAAEFF2A3A04BD00419FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEAAF0C2A3A04BE00419FA6 /* Preview Assets.xcassets in Resources */,
+				BDEAAF092A3A04BE00419FA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEAAEFD2A3A04BD00419FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE5919E2A3A1956006E2CA7 /* Happyv2.swift in Sources */,
+				BDEAAF152A3A151400419FA6 /* Sad.swift in Sources */,
+				BDEAAF072A3A04BD00419FA6 /* ContentView.swift in Sources */,
+				BDE591A82A3A1BF1006E2CA7 /* Surprised.swift in Sources */,
+				BDE591A62A3A1BA7006E2CA7 /* Bad.swift in Sources */,
+				BDE591A22A3A1AA9006E2CA7 /* Angry.swift in Sources */,
+				BDE591A02A3A1A3A006E2CA7 /* Disgusted.swift in Sources */,
+				BDE591A42A3A1B1E006E2CA7 /* Fearful.swift in Sources */,
+				BDEAAF052A3A04BD00419FA6 /* SocialJusticePageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDEAAF0D2A3A04BE00419FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDEAAF0E2A3A04BE00419FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDEAAF102A3A04BE00419FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SocialJusticePage/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.SocialJusticePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDEAAF112A3A04BE00419FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SocialJusticePage/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.SocialJusticePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDEAAEFC2A3A04BD00419FA6 /* Build configuration list for PBXProject "SocialJusticePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAAF0D2A3A04BE00419FA6 /* Debug */,
+				BDEAAF0E2A3A04BE00419FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEAAF0F2A3A04BE00419FA6 /* Build configuration list for PBXNativeTarget "SocialJusticePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAAF102A3A04BE00419FA6 /* Debug */,
+				BDEAAF112A3A04BE00419FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDEAAEF92A3A04BD00419FA6 /* Project object */;
+}
